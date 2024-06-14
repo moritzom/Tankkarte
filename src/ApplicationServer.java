@@ -10,7 +10,7 @@ import java.net.Socket;
 import java.sql.Date;
 
 public class ApplicationServer {
-    private static final int PORT = 80;
+    private static final int PORT = 2000;
 
     public static void main(String[] args) {
 
