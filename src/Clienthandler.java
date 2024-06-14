@@ -1,6 +1,5 @@
 import java.io.*;
 import java.net.*;
-import java.util.ArrayList;
 import java.util.concurrent.locks.ReentrantLock;
 
 class Clienthandler implements Runnable {
@@ -37,6 +36,7 @@ class Clienthandler implements Runnable {
 
     private Response processRequest(Request request) throws IOException {
         String inhalt = request.getMessage();
+        System.out.println("Message: " + inhalt);
         return new Response(inhalt);
     }
 }
