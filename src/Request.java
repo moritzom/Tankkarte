@@ -1,3 +1,5 @@
+//Request Klasse, wird später der Übung nach bearbeitet
+
 import java.io.Serializable;
 
 public class Request implements Serializable {

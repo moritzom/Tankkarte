@@ -1,3 +1,5 @@
+//Response Klasse, wird später noch für die richtige Übung bearbeitet
+
 import java.io.Serializable;
 
 public class Response implements Serializable {
