@@ -18,16 +18,14 @@ public class Main extends Application {
         Scene scene = new Scene(root);
 
         Screen screen = Screen.getPrimary();
-        double screenWidth = screen.getBounds().getWidth();
-        double screenHeight = screen.getBounds().getHeight();
 
         primaryStage.setScene(scene);
-        //primaryStage.setFullScreen(true); //Wenn auf True wird das Spiel in Fullscreen aufgerufen
-        primaryStage.setWidth(500);
-        primaryStage.setHeight(400);
+        primaryStage.setWidth(530);
+        primaryStage.setHeight(450);
 
         primaryStage.setTitle("Tankung");
         primaryStage.show();
+
     }
     public static void main(String[] args) {
         launch();
